@@ -1,0 +1,140 @@
+body {
+	background-color: #0A2463;
+	color: #FFFFFF;
+	font-family: 'Merriweather Sans', sans-serif;
+	letter-spacing: 1px;
+}
+
+h1,h2,h3 {
+	font-family: 'Open Sans', sans-serif;
+	color: greenyellow;
+}
+
+h1 {
+	color: rgb(250,250,250);
+	font-weight: lighter;
+	letter-spacing: 2px;
+	font-size: 40px;
+	text-transform: none;
+
+}
+}
+
+h2 {
+	color: greenyellow;
+	font-size: 30px;
+}
+
+#intro {
+	background: darkslateblue;
+	padding: 30px;
+    margin: 50px;
+    box-shadow: 0.1px 1px 5px darkturquoise;
+    border-radius: 6px;
+    text-align: center
+}
+
+#intro p {
+	margin-bottom:  30px;
+}
+
+#history {
+	background: darkslateblue;
+	padding: 30px;
+    margin: 50px;
+    box-shadow: 0.1px 1px 5px darkturquoise;
+    border-radius: 6px;
+    text-align: center
+}
+
+#sports {
+	background: darkslateblue;
+	padding: 30px;
+    margin: 50px;
+    box-shadow: 0.1px 1px 5px darkturquoise;
+    border-radius: 6px;
+    text-align: center
+}
+
+#music {
+	background: darkslateblue;
+	padding: 30px;
+    margin: 50px;
+    box-shadow: 0.1px 1px 5px darkturquoise;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#socials {
+	background: darkslateblue;
+	padding: 30px;
+    margin: 50px;
+    box-shadow: 0.1px 1px 5px darkturquoise;
+    border-radius: 6px;
+    text-align: center
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+	color: #C47AC0;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #610F7F;
+}
+
+
+.container {
+	width: 1000px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		background-color:  violet;
+		width: 400px;
+	}
+}
+
+@media (max-width: 750px) {
+	.container {
+		background-color:  darkgreen;
+		width: 600px;
+	}
+}
+
+.img-circle {
+	border-radius:  50%;
+}
+
+.btn-blue {
+	background-color: #C47AC0;
+	color:  black;
+	padding:  6px 5px;
+	border-radius:  6px;
+}
+
+.btn-blue:hover {
+	background-color:  black;
+	color:  white;
+}
+
+.list-inline {
+	list-style:  none;
+	padding-left:  0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 30px;
+}
+
+.list-inline i:hover {
+	font-size: 30px;
+	color:  rgb(0,0,0);
+} 
